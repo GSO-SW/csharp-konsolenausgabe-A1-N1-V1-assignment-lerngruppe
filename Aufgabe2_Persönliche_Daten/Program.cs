@@ -14,7 +14,7 @@ public static class Aufgabe_2
 {
     public static void Aufgabe2()
     {
-        
+
         //Diese Zeile mit Ihrem Quellcode ersetzen
     
     }

@@ -1,0 +1,41 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Aufgabe2",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "buildAufgabe2",
+            "program": "${workspaceFolder}/Aufgabe2_Persönliche_Daten/bin/Debug/net6.0/Aufgabe2_Persönliche_Daten.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Aufgabe2_Persönliche_Daten",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        
+
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": "Aufgabe1",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "buildAufgabe1",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/Aufgabe1_Geist/bin/Debug/net6.0/Aufgabe1_Geist.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Aufgabe1_Geist",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}
